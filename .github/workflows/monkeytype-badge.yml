@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate Monkeytype Readme
-        uses: monkeytype-hub/monkeytype-readme@v1
+        uses: monkeytype-hub/monkeytype-readme@master
         with:
           # REQUIRED: Your Monkeytype Username
           username: jason-silva
