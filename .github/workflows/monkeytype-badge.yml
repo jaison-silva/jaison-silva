@@ -9,23 +9,15 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repository code
       - uses: actions/checkout@v4
       
-      # 1. Generate the Monkeytype Stats SVG
-      - name: Generate Monkeytype Readme
+      - name: Generate Monkeytype Readme (Final Attempt)
         uses: monkeytype-hub/monkeytype-readme@master
         with:
-          # Your Monkeytype Username
+          # REQUIRED: Your Monkeytype Username
           username: jason-silva
-          # This version uses the target-branch parameter name
-          target-branch: monkeytype-readme-branch
-          # The api-key and type parameters are NOT used by this specific action
+          # Pass the GITHUB_TOKEN directly to this action
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           
-      # 2. Commit the generated SVG file to the new branch
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          branch: monkeytype-readme-branch
-          commit_message: "chore(monkeytype): update stats"
-          # THIS IS THE CRITICAL MISSING LINE for permissions!
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # Since the first action does the commit now, we remove the second commit action
+      # The first action is responsible for saving the file to the 'target-branch'.
