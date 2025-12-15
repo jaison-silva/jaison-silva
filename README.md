@@ -29,4 +29,6 @@ I’m a self-taught and passionate full-stack developer, as well as a creative p
 ---
 [![My Typing Speed](https://raw.githubusercontent.com/jaison-silva/jaison-silva/monkeytype-readme-branch/monkeytype-readme-pb.svg)](https://monkeytype.com/profile/jason-silva)
 
+<br/>
+
 Check out some of my repositories. Show some ❤️ and maybe leave a ⭐ or two 😅.
