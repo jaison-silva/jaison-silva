@@ -27,9 +27,7 @@ I’m a self-taught and passionate full-stack developer, as well as a creative p
 [![](https://visitcount.itsvg.in/api?id=jaison-silva&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ### ⌨️ Typing Speed
-
-[![My Typing Speed](https://raw.githubusercontent.com/jaison-silva/jaison-silva/monkeytype-readme-branch/monkeytype-readme-pb.svg)](https://monkeytype.com/profile/jason-silva)
-
 ---
+[![My Typing Speed](https://raw.githubusercontent.com/jaison-silva/jaison-silva/monkeytype-readme-branch/monkeytype-readme-pb.svg)](https://monkeytype.com/profile/jason-silva)
 
 Check out some of my repositories. Show some ❤️ and maybe leave a ⭐ or two 😅.
