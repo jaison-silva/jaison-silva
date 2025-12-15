@@ -1,9 +1,7 @@
 name: Generate Monkeytype Readme Stats
 
 on:
-  # Allows manual triggering from the Actions tab
   workflow_dispatch:
-  # Runs the workflow every day at 6:00 AM UTC
   schedule:
     - cron: '0 6 * * *'
 
@@ -11,21 +9,23 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository code
       - uses: actions/checkout@v4
+      
+      # 1. Generate the Monkeytype Stats SVG
       - name: Generate Monkeytype Readme
         uses: monkeytype-hub/monkeytype-readme@master
         with:
-          # REQUIRED: Your Monkeytype Username
+          # Your Monkeytype Username
           username: jason-silva
-          # REQUIRED: The secret key we just stored
-          api-key: ${{ secrets.MONKEYTYPE_API_KEY }}
-          # The branch where the generated image will be committed
-          branch: monkeytype-readme-branch
-          # Use 'pb' for a simple badge, or 'stats' for a detailed card
-          type: pb 
-
-      # Commit the new badge/image back to the branch
+          # This version uses the target-branch parameter name
+          target-branch: monkeytype-readme-branch
+          # The api-key and type parameters are NOT used by this specific action
+          
+      # 2. Commit the generated SVG file to the new branch
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: monkeytype-readme-branch
           commit_message: "chore(monkeytype): update stats"
+          # THIS IS THE CRITICAL MISSING LINE for permissions!
+          token: ${{ secrets.GITHUB_TOKEN }}
