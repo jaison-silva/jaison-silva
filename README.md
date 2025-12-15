@@ -1,8 +1,7 @@
 Hey,👋 I'm Jaison Silva 😁
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jaison-silva) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jaisonsilva.work@gmail.com) 
+## 🌐 Socials: [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jaison-silva) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:jaisonsilva.work@gmail.com) 
 
 I’m a self-taught and passionate full-stack developer, as well as a creative problem-solver, here to build, break, and elevate the web—one line of code at a time. I’m all about creating scalable web apps, exploring new tech, and optimizing user experiences. When I’m not coding, you might find me everywhere, dancing, biking, gaming, binge watching netflix.
 
