@@ -23,7 +23,6 @@ I’m a self-taught and passionate full-stack developer, as well as a creative p
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jaison-silva&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
----
 [![](https://visitcount.itsvg.in/api?id=jaison-silva&icon=0&color=0)](https://visitcount.itsvg.in)
 
 ### ⌨️ Typing Speed
